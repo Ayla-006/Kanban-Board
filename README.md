@@ -1,16 +1,34 @@
-# React + Vite
+# Kanban Board
+A responsive Kanban board built with React and Tailwind CSS to create, filter and drag tasks between columns with persistent local storage. Kanban Board allow users to to organize tasks, manage priorities, search tasks and move tasks between columns using drag and drop.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+• Add new tasks\
+• Delete tasks\
+• Search tasks by name\
+• Filter tasks by priority\
+• Drag and drop tasks between columns
 
-Currently, two official plugins are available:
+## Tech Stack
+• HTML5\
+• Tailwind CSS\
+• React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Kanban Columns
+  Kanban Board contains three task stages:
 
-## React Compiler
+• Backlog: Tasks that are yet to be started\
+• In Progress: Tasks currently being worked on\
+• Done: Completed tasks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Task Priorities
+  Each task can have one of three priority levels:
 
-## Expanding the ESLint configuration
+🔴 High:  Important or urgent tasks \
+🟡 Medium: Normal-priority tasks \
+🟢 Low: Lower-priority tasks 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo:
+https://plan-track-done.netlify.app/
+
+## Author
+_Ayla Waqar_
